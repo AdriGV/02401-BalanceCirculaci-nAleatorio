@@ -22,14 +22,16 @@ import java.util.Random;
  * @author AdrianGV adrian.gimeno.alum@iescamp.es
  */
 public final class Main {
+
     public static final Random RND = new Random();
-    public static void main (String[] args){
+
+    public static void main(String[] args) {
 //        Variable
         int balance;
 //        Generar dato
         balance = RND.nextInt();
-        System.out.printf("Balance de circulación ....: %d%n" , balance);
+        System.out.printf("Balance de circulación ....: %d%n", balance);
 //        System.out.printf("Balance de circulación ....: %d%n" , balance % 10); para que salgan del 1 al 10
-        
+
     }
 }
